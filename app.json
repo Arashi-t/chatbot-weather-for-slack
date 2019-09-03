@@ -2,7 +2,6 @@
   "name": "chatbot-weather-for-slack",
   "description": "This app gets the weather information and returns it to Slack",
   "repository": "https://github.com/Arashi-t/chatbot-weather-for-slack",
-  "image": "heroku/ruby",
   "env": {
     "SLACK_BOT_API_TOKEN": {
       "description": "Bot User OAuth Access Token",
@@ -11,14 +10,14 @@
     "DARKSKY_API_TOKEN": {
       "description": "Dark Sky API Secret Key",
       "value": ""
-    },
+    }
+  },
   "addons": [
     {
       "plan": "heroku-redis:hobby-dev"
-    },
+    }
   ],
   "keywords": [
-    "slack",
-    "ruby",
+    "slack"
   ]
 }
