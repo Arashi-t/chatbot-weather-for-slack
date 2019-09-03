@@ -2,9 +2,6 @@
   "name": "chatbot-weather-for-slack",
   "description": "This app gets the weather information and returns it to Slack",
   "repository": "https://github.com/Arashi-t/chatbot-weather-for-slack",
-  "scripts": {
-    "postdeploy": "bundle exec rake db:migrate"
-  },
   "env": {
     "SLACK_BOT_API_TOKEN": {
       "description": "Bot User OAuth Access Token",
