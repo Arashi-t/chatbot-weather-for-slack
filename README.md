@@ -1,6 +1,8 @@
 # chatbot-weather-for-slack
 ## 概要
 - SlackからのPOST(テキスト)に対応した天気予報情報を返却するサービス
+### 動作確認
+![output](https://user-images.githubusercontent.com/8207836/64216872-cccff180-cef5-11e9-923d-25dce575b92f.gif)
 
 ## 使い方
 - 前提
